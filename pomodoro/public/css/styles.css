@@ -1,0 +1,54 @@
+font-face {
+  font-family: 'TFTWindows';
+  src: url('../fonts/TFTWindows.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'basiic';
+  src: url('../fonts/basiic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'pixeloidsans';
+	src: url('../fonts/PixeloidSans.ttf') format('truetype');
+  }
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #f0f0f0;
+	font-family: Arial, sans-serif;
+}
+
+.container {
+	text-align: center;
+	background: #fff;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.notification {
+	padding: 10px;
+}
+
+h1 {
+	margin-bottom: 20px;
+}
+
+#timer-display {
+	font-family: "basiic";
+	font-size: 3rem;
+	margin-top: 20px;
+}
+
+#pixellabel {
+	font-family: "pixeloidsans";
+}
+
+input[type="number"] {
+	margin-right: 10px;
+}
+
